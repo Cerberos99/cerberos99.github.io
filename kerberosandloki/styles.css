@@ -28,6 +28,9 @@ form{
         color:white;
     }
 
+      form{
+        max-block-size: 600px;
+    }
 }
 
 
