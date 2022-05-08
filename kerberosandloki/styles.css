@@ -29,7 +29,7 @@ form{
     }
 
       form{
-        max-block-size: 600px;
+        max-width: 300px;
     }
 }
 
