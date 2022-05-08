@@ -37,10 +37,13 @@ form{
 }
 
 
+
+
+
 #yhteydenottokuva{
     width: 480px;
     position: relative;
-
+    float: right;
     border-style: groove;
     border-radius: 2px;
   }
@@ -48,7 +51,7 @@ form{
 footer{
     text-align: center;
     padding: 3px;
-    background-color: 6c788c;
+    background-color: grey;
     color: whitesmoke;
     bottom: 0;
     width: 100%;
