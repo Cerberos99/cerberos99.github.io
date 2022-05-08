@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Yhteydenotto</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+        <ul class="navbar-nav mr-auto">
+            <li><a href="index.html" class="nav-link">Aloitus</a>
+            </li>
+            <li><a href="Loki.html" class="nav-link">Loki</a>
+            </li>
+            <li><a href="kerberos.html" class="nav-link">Kerberos</a>
+            </li>
+            <li><a href="Yhteydenotto.html" class="nav-link">Yhteydenotto</a>
+            </li>
+        </ul>
+        </nav>
+
+
+
+
+<form>
+    <fieldset>
+    <legend>Yhteydenottokaavake:</legend>
+<img id="yhteydenottokuva" src ="kuvat/kerbejaloki.jpg" align="right" class="img-fluid rounded-circle" alt="Keberos ja Loki keinutuolissa" >
+<br>
+    <form action="mailto:taru.hook@gmail.com" method="post" enctype="text/plain">
+    <label for="nimi">Etunimi:</label><br>
+    <input type="text" id="name" name="name" required >
+    <br><br>
+    <label for="nimi">Sukunimi:</label><br>
+    <input type="text" id="name" name="name" required >
+    <br><br>
+    <label for="nimi">Sähköpostiosoite:</label><br>
+    <input type="text" id="name" name="name" required >
+    <br><br>
+<p>Vapaa palaute:</p>
+    <textarea id="tekstialue" name="tekstialue" rows="4" cols="70" >
+   
+    </textarea>
+
+
+<br>
+<br>
+<fieldset class="fieldset_set"> 
+<p>Onko sinulla eläimiä?</p>
+<label for="nimi">koiria:</label>
+<input type="checkbox" class="animal" name="valinta1" optional >
+&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="nimi">kissoja:</label>
+<input type="checkbox" class="animal" name="valinta2" optional >
+&nbsp;&nbsp;&nbsp;&nbsp;
+<label for="nimi">Muita eläimiä:</label>
+<input type="checkbox" class="animal" name="valinta3" optional >
+</fieldset>
+
+<br>
+
+<label for="valitse">Kumpi kissa on kivempi:</label>
+<select id="valitse" name="valitse">
+<option value="Loki">Loki</option>
+<option value="Kerberos">Kerberos</option>
+<option value="ei kumpikaan">Mahdoton valinta, koska molemmat täydellisiä</option>
+</select>
+<br>
+<br>
+<input type="submit" class="btn btn-secondary" value="Lähetä"></input>
+
+</fieldset>     
+      
+    </form>
+
+    
+
+    <footer>
+        <p> © 2022 Copyright: Taru</p>
+     </footer>
+ 
+</body>
+</html>
