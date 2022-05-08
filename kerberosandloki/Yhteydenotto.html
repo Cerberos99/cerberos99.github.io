@@ -36,20 +36,21 @@
 
 
 
-<form>
-    <fieldset>
-    <legend>Yhteydenottokaavake:</legend>
-<img id="yhteydenottokuva" src ="kuvat/kerbejaloki.jpg" align="right" class="img-fluid rounded-circle" alt="Keberos ja Loki keinutuolissa" >
+
+   
+    <h3>Yhteydenottokaavake:</h3>
+
 <br>
-    <form action=" " method="get" enctype="text/plain">
-    <label for="nimi">Etunimi:</label><br>
-    <input type="text" id="name" name="name" required >
+    <form action="mailto:taru.hook@gmail.com" method="get" enctype="text/plain">
+ <img id="yhteydenottokuva"  src ="kuvat/kerbejaloki.jpg"  class="img-fluid rounded-circle"  alt="Keberos ja Loki keinutuolissa" >
+    <label for="etunimi">etunimi:</label><br>
+    <input type="text" id="etunimi" name="etunimi" required >
     <br><br>
-    <label for="nimi">Sukunimi:</label><br>
-    <input type="text" id="name" name="name" required >
+    <label for="sukunimi">sukunimi:</label><br>
+    <input type="text" id="sukunimi" name="sukunimi" required >
     <br><br>
-    <label for="nimi">Sähköpostiosoite:</label><br>
-    <input type="text" id="name" name="name" required >
+    <label for="sposti">sposti:</label><br>
+    <input type="text" id="sposti" name="sposti" required >
     <br><br>
 <p>Vapaa palaute:</p>
     <textarea id="tekstialue" name="tekstialue" rows="4" cols="70" >
@@ -61,14 +62,14 @@
 <br>
 <fieldset class="fieldset_set"> 
 <p>Onko sinulla eläimiä?</p>
-<label for="nimi">koiria:</label>
-<input type="checkbox" class="animal" name="valinta1" optional >
+<label for="koiria">koiria:</label>
+<input type="checkbox" id="koiria" name="koiria">
 &nbsp;&nbsp;&nbsp;&nbsp;
-<label for="nimi">kissoja:</label>
-<input type="checkbox" class="animal" name="valinta2" optional >
+<label for="kissoja">kissoja:</label>
+<input type="checkbox" id="kissoja" name="kissoja" >
 &nbsp;&nbsp;&nbsp;&nbsp;
-<label for="nimi">Muita eläimiä:</label>
-<input type="checkbox" class="animal" name="valinta3" optional >
+<label for="muitaelaimia">Muita eläimiä:</label>
+<input type="checkbox" id="muitaelaimia" name="muitaelaimia"  >
 </fieldset>
 
 <br>
@@ -77,13 +78,11 @@
 <select id="valitse" name="valitse">
 <option value="Loki">Loki</option>
 <option value="Kerberos">Kerberos</option>
-<option value="ei kumpikaan">Mahdoton valinta, molemmat täydellisiä</option>
+<option value="ei kumpikaan">Molemmat täydellisiä</option>
 </select>
 <br>
 <br>
-<input type="submit" class="btn btn-secondary" value="Lähetä"></input>
-
-</fieldset>     
+<input type="submit" class="btn btn-secondary" value="Lähetä">
       
     </form>
 
