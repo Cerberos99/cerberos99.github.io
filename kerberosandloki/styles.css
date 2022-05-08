@@ -29,11 +29,11 @@ form{
     }
 
     form{
-     max-width: 600px;
+     max-width: 500px;
     }
     
     #tekstialue{
-        max-width: 500px;
+        max-width: 400px;
     }
 }
 
